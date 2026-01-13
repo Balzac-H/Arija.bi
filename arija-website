@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARIJA - Source de Repos et de Bien-être</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f5f8fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #0366d6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #0366d6;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .lang-switch {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+    }
+    .lang-switch button {
+      background: white;
+      border: 1px solid #0366d6;
+      color: #0366d6;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ARIJA</h1>
+    <p>Alliance pour le Renforcement des valeurs d’Intégrité, de Justice socio-économique et d’Amitié entre les peuples</p>
+    <p><em>Source de Repos et de Bien-être</em></p>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#valeurs">Nos valeurs</a>
+      <a href="#projets">Projets</a>
+      <a href="#equipe">Équipe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="lang-switch">
+    <button onclick="toggleLanguage()">🇫🇷 / 🇬🇧</button>
+  </div>
+
+  <!-- Section FR -->
+  <div id="fr">
+    <section id="accueil">
+      <h2>Source de Repos et de Bien-être</h2>
+      <p>Bienvenue sur le site officiel de <strong>l’Organisation Non Gouvernementale ARIJA</strong>. Nous œuvrons pour le renforcement des valeurs d’intégrité, la justice sociale et économique, et la promotion de l’amitié entre les peuples. Notre mission se résume dans notre slogan : <em>Uwarushe Aruhuke</em>.</p>
+    </section>
+
+    <section id="apropos">
+      <h2>À propos de nous</h2>
+      <p><strong>ARIJA</strong> est une Organisation Non Gouvernementale (ONG) dédiée à la construction d’un monde plus juste, plus équitable et plus humain. Notre engagement repose sur les valeurs fondamentales d’intégrité, de justice et de solidarité entre les peuples.</p>
+      <p><strong>Vision :</strong> Créer des communautés harmonieuses où chaque individu peut vivre dans la dignité, la paix et le respect mutuel.</p>
+    </section>
+
+    <section id="valeurs">
+      <h2>Nos valeurs et mission</h2>
+      <ul>
+        <li><strong>Intégrité :</strong> promouvoir la transparence et la responsabilité dans tous les domaines.</li>
+        <li><strong>Justice sociale :</strong> œuvrer pour l’égalité des chances et la défense des plus vulnérables.</li>
+        <li><strong>Justice économique :</strong> encourager une répartition équitable des ressources et des opportunités.</li>
+        <li><strong>Amitié entre les peuples :</strong> bâtir des ponts de compréhension et de coopération entre les cultures.</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Nos projets / activités</h2>
+      <p>ARIJA mène des actions dans plusieurs domaines : éducation, autonomisation, solidarité et coopération internationale.</p>
+      <ul>
+        <li>“Justice et Espoir” : formation sur les droits socio-économiques.</li>
+        <li>“Ponts d’Amitié” : échanges interculturels pour la paix.</li>
+        <li>“Intégrité pour tous” : campagnes de sensibilisation dans les écoles et communautés.</li>
+      </ul>
+    </section>
+
+    <section id="equipe">
+      <h2>Notre équipe</h2>
+      <p>Notre équipe est composée d’hommes et de femmes passionnés, engagés à promouvoir les valeurs d’ARIJA.</p>
+      <ul>
+        <li><strong>Président :</strong> [Nom à ajouter]</li>
+        <li><strong>Vice-président :</strong> [Nom à ajouter]</li>
+        <li><strong>Secrétaire général :</strong> [Nom à ajouter]</li>
+        <li><strong>Coordinateur des projets :</strong> [Nom à ajouter]</li>
+        <li><strong>Chargé de communication :</strong> [Nom à ajouter]</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Adresse :</strong> [À compléter]</p>
+      <p><strong>Téléphone :</strong> [À compléter]</p>
+      <p><strong>Email :</strong> [À compléter]</p>
+      <p><strong>Réseaux sociaux :</strong> Facebook | Twitter | LinkedIn</p>
+    </section>
+  </div>
+
+  <!-- Section EN -->
+  <div id="en" style="display:none;">
+    <section id="home">
+      <h2>Source of Rest and Well-being</h2>
+      <p>Welcome to the official website of <strong>ARIJA Non-Governmental Organization (NGO)</strong>. We are committed to strengthening integrity, promoting social and economic justice, and fostering friendship among peoples. Our mission is summed up in our slogan: <em>Uwarushe Aruhuke</em>.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p><strong>ARIJA</strong> is a Non-Governmental Organization dedicated to building a fairer, more equitable, and more humane world. Our commitment is based on integrity, justice, and solidarity among peoples.</p>
+      <p><strong>Vision:</strong> To create harmonious communities where everyone lives in dignity, peace, and mutual respect.</p>
+    </section>
+
+    <section id="values">
+      <h2>Our Values and Mission</h2>
+      <ul>
+        <li><strong>Integrity:</strong> Promote transparency and accountability in all aspects.</li>
+        <li><strong>Social Justice:</strong> Advocate for equality and protection of the vulnerable.</li>
+        <li><strong>Economic Justice:</strong> Encourage fair distribution of resources and opportunities.</li>
+        <li><strong>Friendship among Peoples:</strong> Build bridges of understanding and cooperation between cultures.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Our Projects / Activities</h2>
+      <ul>
+        <li>“Justice and Hope” – training on socio-economic rights.</li>
+        <li>“Bridges of Friendship” – intercultural exchanges for peace.</li>
+        <li>“Integrity for All” – awareness campaigns in schools and communities.</li>
+      </ul>
+    </section>
+
+    <section id="team">
+      <h2>Our Team</h2>
+      <ul>
+        <li><strong>President:</strong> [Name]</li>
+        <li><strong>Vice President:</strong> [Name]</li>
+        <li><strong>Secretary General:</strong> [Name]</li>
+        <li><strong>Project Coordinator:</strong> [Name]</li>
+        <li><strong>Communications Officer:</strong> [Name]</li>
+      </ul>
+    </section>
+
+    <section id="contact-en">
+      <h2>Contact</h2>
+      <p><strong>Address:</strong> [Add here]</p>
+      <p><strong>Phone:</strong> [Add here]</p>
+      <p><strong>Email:</strong> [Add here]</p>
+      <p><strong>Social media:</strong> Facebook | Twitter | LinkedIn</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 ARIJA - Alliance pour le Renforcement des valeurs d’Intégrité, de Justice socio-économique et d’Amitié entre les peuples.</p>
+  </footer>
+
+  <script>
+    function toggleLanguage() {
+      const fr = document.getElementById('fr');
+      const en = document.getElementById('en');
+      fr.style.display = fr.style.display === 'none' ? 'block' : 'none';
+      en.style.display = en.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
